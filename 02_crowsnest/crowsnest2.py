@@ -2,7 +2,7 @@
 """
 Author : Minglu <john@localhost>
 Date   : 2022-10-06
-Purpose: Rock the Casbah
+Purpose: choose the right article word
 """
 import argparse
 # --------------------------------------------------
