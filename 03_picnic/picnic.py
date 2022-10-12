@@ -41,7 +41,7 @@ def main():
     elif num <4:
         print(f"You are bringing {', '.join(Item)}.")
     else:
-        print(f"You are bringing {', '.join(Item[:3])}, and {Item[-1]}.")
+        print(f"You are bringing {', '.join(Item[:num-1])}, and {Item[-1]}.")
 ##now it is time to make sorted flag to work properly
 
 
