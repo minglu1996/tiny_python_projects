@@ -19,10 +19,15 @@ def main():
     number = args.number
     jumper = {'1': '9', '2': '8', '3': '7', '4': '6', '5': '0', '6': '4', '7': '3', '8': '2', '9': '1', '0': '5',
               '-': '-'}
-    a = list(jumper.keys())
-    for char in number:
-        print(jumper.get(char, char), end='')
+    # a = list(jumper.keys())
+    # for char in number:
+    #     print(jumper.get(char, char), end='')
 
+    new=''
+    for char in number:
+        # print(jumper.get(char,char),end='')
+        new = new+ jumper.get(char,char)
+    print(new)
 
 # for this task, I got stuck in the step which I don't know how to return the other letters which are not numbers. I used:
 # if char in a:
