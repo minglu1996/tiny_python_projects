@@ -7,7 +7,8 @@ Purpose: Howler (upper-cases input)
 
 import argparse
 import os
-import sys
+# not used in my method
+# import sys
 
 
 # --------------------------------------------------
